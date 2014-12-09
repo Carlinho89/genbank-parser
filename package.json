@@ -1,0 +1,20 @@
+{
+  "name": "biojs-io-genbank",
+  "version": "0.0.3",
+  "description": "PP2_Demo\r ========",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carlinho89/PP2_Demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlinho89/PP2_Demo/issues"
+  },
+  "keywords": ["biojs"],
+  "homepage": "https://github.com/Carlinho89/PP2_Demo"
+}

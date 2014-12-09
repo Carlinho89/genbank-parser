@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src = "parser.js" ></script>
+	<script src = "helper.js" ></script>
+	<style>
+	#sequence {	
+	width:800px;
+	word-wrap: break-word;	
+	}
+	.sequence-container {
+		width:500px;
+		overflow:hidden;
+		background-color:black;
+		display:block;
+	}
+	</style>
+	
+</head>
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+<input type="file" id="files" name="Input GBK" onchange="handleFileSelect(event)"/>
+<p id="name"></p>
+<p id="features"></p>
+<div id="sequence-container">
+<input type="button" onclick="paint(document.getElementById('sequence').innerHTML,100,105,'red');"/>
+<p id="sequence"></p>
+</div>
+</body>
+</html>
+
