@@ -1,18 +1,3 @@
-function handleFileSelect(evt) {
-        var files = evt.target.files,
-            f = files[0],
-            reader = new FileReader();
-        reader.onload = function(e) {
-            var parsedContent = parseGBF(e.target.result);  
-				//console.log(JSON.stringify(parsedContent));
-            document.getElementById('name').innerHTML = "Keywords :" + parsedContent.metadata.keywords;
-			document.getElementById('features').innerHTML = "Features :" + JSON.stringify(parsedContent.features);
-			document.getElementById('sequence').innerHTML = "Sequence : <br>" + parsedContent.sequence;
-        }
-        reader.readAsText(f);
-    }
-
-
 function parseGBF(result) {
     var metaData = readGBKMeta(result);
 	var sequence = readGBKSequence(result);
@@ -272,6 +257,8 @@ function readGBKSequence(gbkText) {
     obj.sequence = sequence;
     return JSON.stringify(obj);
 }
+/*
 if(module != undefined && module.exports != undefined){
 	module.exports = parseGBF;
 }
+*/

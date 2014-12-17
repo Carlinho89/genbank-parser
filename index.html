@@ -3,8 +3,9 @@
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src = "parser.js" ></script>
-	<script src = "helper.js" ></script>
-	<style>
+    <script src = "helper.js" ></script>
+    <script src = "../GenBankController.js"></script>
+    <style>
 	#sequence {	
 	width:800px;
 	word-wrap: break-word;	
@@ -15,15 +16,16 @@
 		background-color:black;
 		display:block;
 	}
-	</style>
+    </style>
 	
 </head>
 <body>
 <h3>Genbank Parser</h3>
 <p>Developed for the course Protein Prediction held at the Technical University of Munich, for the winter semester 14-15</p>
-<input type="file" id="files" name="Input GBK" onchange="handleFileSelect(event)"/>
+<input type="file" id="files" name="Input GBK" onchange="parse(event)"/>
 <p id="name"></p>
 <p id="features"></p>
+<div id="featureList"></div>
 <div id="sequence-container">
 <input type="button" value="Sample Visualization" onclick="paint(document.getElementById('sequence').innerHTML,100,105,'red');"/>
 <p id="sequence"></p>
