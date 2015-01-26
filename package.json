@@ -1,0 +1,51 @@
+{
+  "name": "biojs-io-genbank",
+  "version": "0.1.0",
+  "description": "PP2_Demo\r ========",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carlinho89/genbank-parser.git"
+  },"contributors": [
+    {
+      "name": "Sai Kiran Krishna Murthy",
+      "email": "austin.kiran@gmail.com"
+    },
+    {
+      "name": "Carlo Di Domenico",
+      "email": "carlo.didomenico@hotmail.it"
+    },
+    {
+      "name": "Enrico Gigantiello",
+      "email": "enrico.gigantiello@gmail.com"
+    },
+    {
+      "name": "Tatyana Goldberg"
+    },
+    {
+      "name": "Juan Miguel Cejuela"
+    },
+    {
+      "name": "Sebastian Wilzbach"
+    },
+    {
+      "name": "David Dao"
+    },
+    {
+      "name": "Dr. Khalil El Mazouari"
+    },
+    {
+      "name": "Prof. Burkhard Rost"
+    }
+    
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlinho89/genbank-parser/issues"
+  },
+  "keywords": ["biojs"],
+  "homepage": "https://github.com/Carlinho89/genbank-parser"
+}

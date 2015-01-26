@@ -1,0 +1,102 @@
+LOCUS       Z26331                  2373 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  G.max gene for cyclin.
+ACCESSION   Z26331
+VERSION     Z26331.1  GI:471307
+KEYWORDS    cyclin.
+SOURCE      Glycine max (soybean)
+  ORGANISM  Glycine max
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae;
+            Phaseoleae; Glycine; Soja.
+REFERENCE   1  (bases 1 to 2373)
+  AUTHORS   Deckert,J. and Gresshoff,P.M.
+  TITLE     Soybean cyclin gene structure and expression during nodulation
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2373)
+  AUTHORS   Deckert,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-1993) Joanna Deckert, Plant Molecular Genetics,
+            The University of Tennessee, 269 Ellington Bldg., Knoxville, TN,
+            37901-1071, USA
+COMMENT     On Apr 13, 1994 this sequence version replaced gi:402650.
+FEATURES             Location/Qualifiers
+     source          1..2373
+                     /organism="Glycine max"
+                     /mol_type="genomic DNA"
+                     /cultivar="Bragg"
+                     /db_xref="taxon:3847"
+                     /clone="cycG.m.9-1"
+                     /clone_lib="Lambda GEM11 (Promega vector)"
+     CAAT_signal     286..290
+     TATA_signal     323..327
+     CDS             join(349..669,1319..2119)
+                     /codon_start=1
+                     /product="cyclin"
+                     /protein_id="CAA81232.1"
+                     /db_xref="GI:471308"
+                     /db_xref="GOA:Q39855"
+                     /db_xref="HSSP:1OGU"
+                     /db_xref="InterPro:IPR004367"
+                     /db_xref="InterPro:IPR006670"
+                     /db_xref="InterPro:IPR006671"
+                     /db_xref="InterPro:IPR011028"
+                     /db_xref="InterPro:IPR013763"
+                     /db_xref="InterPro:IPR014400"
+                     /db_xref="UniProtKB/TrEMBL:Q39855"
+                     /translation="MWLVLAVANEGVAVAKRAAPKPVSKKVIVKPKPSEKVTDIDASP
+                     DKKRVLKDKKKEGDANPKKKSQHTLTSVLTARSKAACGITNKPKEQIIDIDASDVDNE
+                     LAAVELAAVEYIDDIYKFYKLVENESRPHDYIGSQPEINERMRAILVDWLIDVHTKFE
+                     LSLETLYLTINIIDRFLAVKTVPRRELQLVGISAMLMASKYEEIWPPEVNDFVCLSDR
+                     AYTHEHILTMEKTILNKLEWTLTVPTPLVFLVRFIKASVPDQELDNMAHFLSELGMMN
+                     YATLMYCPSMVAASAVLAARCTLNKAPFWNETLKLHTGYSQEQLMDCARLLVGFHSTL
+                     ENGKLRVVYRKYSDPQKGAVAVLPPAKFLLPEGSASQHS"
+     exon            349..669
+                     /number=1
+     intron          670..1318
+                     /number=1
+     exon            1319..2119
+                     /number=2
+ORIGIN      
+        1 tctgggggtc tctctcccca ccttctcaga aaaggaaggg gagaatgcag ttgagaagag
+       61 agagagagag atagagagag gggggggttc ttctacacag atttgtttga tttcaattca
+      121 agaccaaaga agaatgcact agtaggggga ggaaaacaac agaagaagaa cggtgttgct
+      181 gatggaagga accgcaaagc attgggtgac attgggaatt tggccaatgt aagaggcgtt
+      241 gttgatgcca aaccaaatcg ccccatcaca aggagttttg gtgcacaatt acttgccatg
+      301 cacaagcagc agcagctcgt gataatagca agagacaagc atgtgctaat gtggctggtc
+      361 cttgccgttg ctaatgaagg agttgcggtg gccaaaagag cggcccccaa accggtttcg
+      421 aagaaagtga tcgtaaaacc taagccttct gagaaagtca ctgacattga tgctagtcca
+      481 gataagaaga gggtcctgaa agacaagaag aaggaaggag atgccaaccc caagaagaaa
+      541 tcgcaacaca ctcttacttc agtgctcact gctaggagca aggcagcatg tggcataaca
+      601 aacaaaccaa aggaacagat tattgacatt gatgcttctg atgttgacaa tgagcttgct
+      661 gctgtggaag tacattgatg acattacaag ttcacaagtg tgagacgaga gcgccacgac
+      721 tatggttcga acgtacggac gttccagctg ttactcgaac gacgacacct catgtaacta
+      781 ctgtaaatgt tcaagatgtt tgaacaactc ttgctcggcg ggggtgctga tataaccaag
+      841 tgacggactc tatttactct ccatctctcg ataagaccaa ctaaccgact atcatcaagt
+      901 gtggtcaaga catcttaggg attactaaaa atagttttag taatcaatcc atctatgtgt
+      961 agaacagtat actacttacg cttaagcggt tttagttatt agtctgtgtt tacacgtgct
+     1021 tggacttaaa tagagagaat aaggttgaat cagggcttaa tgtggattgc ttgaggttgt
+     1081 cctggccaat gccaacctga accggttgca cggaatggaa ctgaccattt tgagagtgag
+     1141 gaatggcctt ggaacctggc attggacggt tggtttcgct cttgtttgta ttgtgttgct
+     1201 tagctggcta acaatccatt agcagtggag gtgtttctcg actgagcgac atatggcaac
+     1261 cgtacgatcg aaatagacaa gcccgttatg ctacgggtaa catgaacaac tagatgagct
+     1321 tgctgctgtg gagtacattg atgacattta caagttctac aaacttgttg agaacgagag
+     1381 ccgcccccac gactatattg gttcacagcc tgagataaat gagaggatga gagctattct
+     1441 ggttgattgg ctgatagatg ttcacaccaa gtttgaactt tcacttgaga ccctttactt
+     1501 gaccatcaat ataattgatc ggtttttagc agttaagaca gttccaagga gggaactgca
+     1561 attggttggc atcagtgcca tgctgatggc atccaaatat gaagaaatct ggccccctga
+     1621 ggttaatgac tttgtctgcc tctcagatag ggcttacact catgaacata tactaaccat
+     1681 ggagaaaacc atattgaaca agctggaatg gactttgact gtgccaacac ctttagtttt
+     1741 ccttgttcgt tttatcaagg catctgtccc agatcaggag ttggacaaca tggctcattt
+     1801 cctgtctgag ttgggaatga tgaactacgc aaccttaatg tactgcccgt caatggttgc
+     1861 tgcctcagca gtgcttgcag caagatgcac tctgaacaag gctccttttt ggaatgagac
+     1921 acttaagctg cacactggtt actcacaaga gcaactcatg gattgtgcta gactattggt
+     1981 ggggttccac tccactcttg agaatggaaa gcttagggtt gtgtacagaa aatattctga
+     2041 ccctcagaag ggtgctgttg ctgtgctccc acccgctaaa tttcttctgc ctgaaggttc
+     2101 tgcttcccaa catagttaaa aatatgagga gtgtctttta gaagaaaaaa tgattttcag
+     2161 caaataatat tttgattttt gctctaaaac ttatatgcat tgcttttaac actacctttc
+     2221 aagcatatcg acagtgacat gagtatgatg ttacgtaact atacattatt catttgcatt
+     2281 tgttaattca tattaggtta atgtgcaagg acaaaaatat aacattagat cgactaaagg
+     2341 acttgcagag tacactagct acctactact gtt
+//
+
