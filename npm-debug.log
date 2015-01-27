@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Cuzzo89/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz
+12 verbose folder .
+13 info prepublish biojs-io-genbank@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Cuzzo89/.npm/1f1177db-tar.lock
+16 silly lockFile 0672759a-ojs-io-genbank-0-1-0-package-tgz tar:///Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz
+17 verbose lock tar:///Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz /Users/Cuzzo89/.npm/0672759a-ojs-io-genbank-0-1-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0672759a-ojs-io-genbank-0-1-0-package-tgz tar:///Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz
+21 silly lockFile 0672759a-ojs-io-genbank-0-1-0-package-tgz tar:///Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package.tgz
+22 silly lockFile 1cea3f8d-m-biojs-io-genbank-0-1-0-package /Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package
+23 verbose lock /Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package /Users/Cuzzo89/.npm/1cea3f8d-m-biojs-io-genbank-0-1-0-package.lock
+24 silly lockFile 1cea3f8d-m-biojs-io-genbank-0-1-0-package /Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package
+25 silly lockFile 1cea3f8d-m-biojs-io-genbank-0-1-0-package /Users/Cuzzo89/.npm/biojs-io-genbank/0.1.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'biojs-io-genbank',
+28 silly publish   version: '0.1.0',
+28 silly publish   description: 'PP2_Demo\r ========',
+28 silly publish   main: 'parser.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository:
+28 silly publish    { type: 'git',
+28 silly publish      url: 'https://github.com/Carlinho89/genbank-parser.git' },
+28 silly publish   contributors:
+28 silly publish    [ { name: 'Sai Kiran Krishna Murthy',
+28 silly publish        email: 'austin.kiran@gmail.com' },
+28 silly publish      { name: 'Carlo Di Domenico',
+28 silly publish        email: 'carlo.didomenico@hotmail.it' },
+28 silly publish      { name: 'Enrico Gigantiello',
+28 silly publish        email: 'enrico.gigantiello@gmail.com' },
+28 silly publish      { name: 'Tatyana Goldberg' },
+28 silly publish      { name: 'Juan Miguel Cejuela' },
+28 silly publish      { name: 'Sebastian Wilzbach' },
+28 silly publish      { name: 'David Dao' },
+28 silly publish      { name: 'Dr. Khalil El Mazouari' },
+28 silly publish      { name: 'Prof. Burkhard Rost' } ],
+28 silly publish   license: 'ISC',
+28 silly publish   bugs: { url: 'https://github.com/Carlinho89/genbank-parser/issues' },
+28 silly publish   keywords: [ 'biojs' ],
+28 silly publish   homepage: 'https://github.com/Carlinho89/genbank-parser',
+28 silly publish   readme: 'genbank-parser\n\n## Documentation\n\nthe genbank parser has  the following methods with the specified signatures.\nmethod readGBKSequence(gbkText)\nmethod readGBKFeatures(gbkText)\nmethod process_location(location_string)\nmethod readGBKMeta(gbkText)\nmethod parseGBF(result)\n\n==============\n\nNPM for a genbank parser created from the code available at http://spareinformatics.blogspot.com/2014/02/converting-genbank-files-to-json-in.html\n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: 'aa34b8bafa8c0ee2d89bb8dddcfbbb82ee9f9c3d',
+28 silly publish   _id: 'biojs-io-genbank@0.1.0',
+28 silly publish   _shasum: '8bd5b73544f505a3138f682b64316cff26b127a6',
+28 silly publish   _from: '.' }
+29 verbose request where is /biojs-io-genbank
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 907471161214c6fa
+32 verbose url raw /biojs-io-genbank
+33 verbose url resolving [ 'https://registry.npmjs.org/', './biojs-io-genbank' ]
+34 verbose url resolved https://registry.npmjs.org/biojs-io-genbank
+35 verbose request where is https://registry.npmjs.org/biojs-io-genbank
+36 info trying registry request attempt 1 at 15:21:21
+37 http PUT https://registry.npmjs.org/biojs-io-genbank
+38 http 403 https://registry.npmjs.org/biojs-io-genbank
+39 verbose headers { date: 'Tue, 27 Jan 2015 14:21:22 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '3491',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-fra1224-FRA',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1422368482.484837,VS0,VE360',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden cannot modify pre-existing version: 0.1.0
+41 error old={"name":"biojs-io-genbank","version":"0.1.0","description":"PP2_Demo\u000d ========","main":"parser.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/Carlinho89/genbank-parser.git"},"contributors":[{"name":"Sai Kiran Krishna Murthy","email":"austin.kiran@gmail.com"},{"name":"Carlo Di Domenico","email":"carlo.didomenico@hotmail.it"},{"name":"Enrico Gigantiello","email":"enrico.gigantiello@gmail.com"},{"name":"Tatyana Goldberg"},{"name":"Juan Miguel Cejuela"},{"name":"Sebastian Wilzbach"},{"name":"David Dao"},{"name":"Dr. Khalil El Mazouari"},{"name":"Prof. Burkhard Rost"}],"license":"ISC","bugs":{"url":"https://github.com/Carlinho89/genbank-parser/issues"},"keywords":["biojs"],"homepage":"https://github.com/Carlinho89/genbank-parser","gitHead":"bed7b8d13076ffd4539c4b75baa2c776659964e0","_id":"biojs-io-genbank@0.1.0","_shasum":"ac4c3a478073aac5781c0adcbcfc1949817928f4","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"kiran002","email":"austin.kiran@gmail.com"},"maintainers":[{"name":"kiran002","email":"austin.kiran@gmail.com"}],"dist":{"shasum":"ac4c3a478073aac5781c0adcbcfc1949817928f4","tarball":"http://registry.npmjs.org/biojs-io-genbank/-/biojs-io-genbank-0.1.0.tgz"}}
+41 error new={"name":"biojs-io-genbank","version":"0.1.0","description":"PP2_Demo\u000d ========","main":"parser.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/Carlinho89/genbank-parser.git"},"contributors":[{"name":"Sai Kiran Krishna Murthy","email":"austin.kiran@gmail.com"},{"name":"Carlo Di Domenico","email":"carlo.didomenico@hotmail.it"},{"name":"Enrico Gigantiello","email":"enrico.gigantiello@gmail.com"},{"name":"Tatyana Goldberg"},{"name":"Juan Miguel Cejuela"},{"name":"Sebastian Wilzbach"},{"name":"David Dao"},{"name":"Dr. Khalil El Mazouari"},{"name":"Prof. Burkhard Rost"}],"license":"ISC","bugs":{"url":"https://github.com/Carlinho89/genbank-parser/issues"},"keywords":["biojs"],"homepage":"https://github.com/Carlinho89/genbank-parser","readme":"genbank-parser\u000a\u000a## Documentation\u000a\u000athe genbank parser has  the following methods with the specified signatures.\u000amethod readGBKSequence(gbkText)\u000amethod readGBKFeatures(gbkText)\u000amethod process_location(location_string)\u000amethod readGBKMeta(gbkText)\u000amethod parseGBF(result)\u000a\u000a==============\u000a\u000aNPM for a genbank parser created from the code available at http://spareinformatics.blogspot.com/2014/02/converting-genbank-files-to-json-in.html\u000a","readmeFilename":"README.md","gitHead":"aa34b8bafa8c0ee2d89bb8dddcfbbb82ee9f9c3d","_id":"biojs-io-genbank@0.1.0","_shasum":"8bd5b73544f505a3138f682b64316cff26b127a6","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"kiran002","email":"austin.kiran@gmail.com"},"maintainers":[{"name":"kiran002","email":"austin.kiran@gmail.com"}],"dist":{"shasum":"8bd5b73544f505a3138f682b64316cff26b127a6","tarball":"http://registry.npmjs.org/biojs-io-genbank/-/biojs-io-genbank-0.1.0.tgz"}}: biojs-io-genbank
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:944:16
+41 error     at process._tickCallback (node.js:442:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 14.0.0
+44 error command "node" "/usr/local/bin/npm" "publish"
+45 error cwd /Users/Cuzzo89/genbank-parser
+46 error node -v v0.10.35
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]

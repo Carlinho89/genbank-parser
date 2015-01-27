@@ -1,6 +1,6 @@
 {
   "name": "biojs-io-genbank",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PP2_Demo\r ========",
   "main": "parser.js",
   "scripts": {
